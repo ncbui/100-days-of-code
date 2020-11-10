@@ -1,0 +1,19 @@
+{
+  "name": "100-days-of-code",
+  "version": "1.0.0",
+  "description": "Tracking Cam's progress with #100DaysOfCode.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ncbui/100-days-of-code.git"
+  },
+  "author": "Cam Bui",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ncbui/100-days-of-code/issues"
+  },
+  "homepage": "https://github.com/ncbui/100-days-of-code#readme"
+}
