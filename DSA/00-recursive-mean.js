@@ -60,8 +60,7 @@ class LinkedList {
 
   push(val) {
     let newNode = new Node(val);
-    if (this.tail === null) {
-      // if list is empty, add first node
+    if (this.length === 0) {   // if list is empty, add first node
       this.head = newNode;
       this.tail = newNode;
     } else {
@@ -74,4 +73,4 @@ class LinkedList {
   }
 }
 
-module.exports = LinkedList;
+module.exports = {LinkedList, Node};

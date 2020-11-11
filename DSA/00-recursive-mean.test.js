@@ -1,4 +1,4 @@
-const LinkedList = require("./00-recursive-mean");
+const {LinkedList} = require("./00-recursive-mean");
 
 const values = [8, 6, 7, 5, 3, 0, 9];
 
