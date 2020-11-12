@@ -1,6 +1,6 @@
 # 100 Days Of Code - Log
 
-### Day 0: 9 November 2020
+### Day 1: 9 November 2020
 <!-- ##### (delete me or comment me out) -->
 
 **Today's Progress**: Implemented a singly linked list as a class. Added methods to calculate the means recursively and iteratively. Wrote jest tests.
@@ -9,7 +9,7 @@
 
 **Link to work:** [Linked Lists - recursive mean](DSA/00-recursive-mean.js) [[*test*](DSA/00-recursive-mean.test.js)]
 
-### Day 1: 10 November 2020
+### Day 2: 10 November 2020
 <!-- ##### (delete me or comment me out) -->
 
 **Today's Progress**: Extended Day 1's class and added common linked list methods.
@@ -18,7 +18,7 @@
 
 **Link to work:** [Linked Lists - common methods](DSA/01-linked-list-singly.js) [[*test*](DSA/01-linked-list-singly.test.js)]
 
-### Day 2: 10 November 2020
+### Day 3: 10 November 2020
 <!-- ##### (delete me or comment me out) -->
 
 **Today's Progress**: Changed methods to throw error objects, per [Joyent's Error Handling in Node.js](https://www.joyent.com/node-js/production/design/errors). Wrote Jest test to catch error objects, passing anonymous arrow functions per [Jest documentation for .tothrowError()](https://jestjs.io/docs/en/expect#tothrowerror).   
