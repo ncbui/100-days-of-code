@@ -82,6 +82,7 @@ describe("getAt", function () {
   it("returns error if list is empty", function () {
     let lst = new LinkedList();
 
+    expect(() => lst.getAt(0)).toThrowError(Error);
     expect(() => lst.getAt(0)).toThrow(new Error("Error: Cannot get from an empty list"));
   });
 });
