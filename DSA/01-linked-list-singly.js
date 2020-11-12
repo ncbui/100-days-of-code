@@ -1,6 +1,7 @@
 const { LinkedList, Node } = require("./00-recursive-mean");
 
-/** LinkedListMore: connects nodes in singly linked list */
+/** LinkedListMore: connects nodes in singly linked list 
+*/
 
 class LinkedListMore extends LinkedList {
 
@@ -10,9 +11,12 @@ class LinkedListMore extends LinkedList {
 
   /** getAt(idx): get val at idx. */
 
-  getAt(idx) {
+  getAt(idx = 0) {
     if (idx > this.length) {
-      console.error("Index is invalid: cannot be greater than length of the list")
+      throw new Error("Error: Index cannot be greater than length of the list");
+    };
+    if (this.length === 0) {
+      throw new Error("Error: Cannot get from an empty list");
     };
 
     if (idx === 0) {
@@ -26,7 +30,9 @@ class LinkedListMore extends LinkedList {
   /** setAt(idx, val): set val at idx to val */
 
   setAt(idx, val) {
-    if (idx > this.length) console.error("Index is invalid: cannot be greater than length of the list");
+    if (idx > this.length) {
+      throw new Error("Error: Index does not exist in list");
+    };
 
     if (idx === 0) {
       this.head.val = val;
@@ -39,7 +45,9 @@ class LinkedListMore extends LinkedList {
   /** insertAt(idx, val): add node w/val before idx. */
 
   insertAt(idx, val) {
-    if (idx > this.length) console.error("Index is invalid: cannot be greater than length of the list");
+    if (idx > this.length) {
+      throw new Error("Error: Cannot create a sparse list");
+    };
 
     let insert = new Node(val);
 
@@ -49,11 +57,10 @@ class LinkedListMore extends LinkedList {
       if (idx === this.length) {
         this.tail.next = insert;
         this.tail = insert;
-      } else {
-        let prev = this._traverseTo(idx - 1);
-        insert.next = prev.next;
-        prev.next = insert;
       }
+      let prev = this._traverseTo(idx - 1);
+      insert.next = prev.next;
+      prev.next = insert;
       this.length++;
     }
   }
@@ -61,7 +68,9 @@ class LinkedListMore extends LinkedList {
   /** pop(): return & remove last item. */
 
   pop() {
-    if (this.length === 0) console.log("Cannot pop from an empty list");
+    if (this.length === 0) {
+      throw new Error("Error: Cannot pop from an empty list");
+    };
 
     const popped = this.removeAt(this.length - 1);
     return popped.val;
@@ -70,7 +79,9 @@ class LinkedListMore extends LinkedList {
   /** shift(): return & remove first item. */
 
   shift() {
-    if (this.length === 0) console.log("Cannot shift from an empty list");
+    if (this.length === 0) {
+      throw new Error("Error: Cannot shift from an empty list");
+    }
 
     const popped = this.removeAt();
     return popped.val;
@@ -80,7 +91,7 @@ class LinkedListMore extends LinkedList {
 
   removeAt(idx = 0) {
     if (idx > this.length || this.length === 0) {
-      console.log("Index is invalid: cannot be greater than length of the list")
+      throw new Error("Error: Index does not exist in this list")
     }
 
     let removed;
@@ -106,6 +117,10 @@ class LinkedListMore extends LinkedList {
   /** unshift(val): add new value to start of list. */
 
   unshift(val) {
+    if (!val) {
+      throw new Error("Error: Cannot create a node without a value");
+    }
+    
     let newNode = new Node(val);
 
     if (this.length === 0) {
@@ -131,7 +146,6 @@ class LinkedListMore extends LinkedList {
     }
     return node;
   }
-
 
 }
 

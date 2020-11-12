@@ -1,6 +1,5 @@
 const LinkedList = require("./01-linked-list-singly");
 
-const values = [8, 6, 7, 5, 3, 0, 9];
 
 describe("unshift", function () {
   it("adds node at start and increments length", function () {
@@ -24,12 +23,6 @@ describe("unshift", function () {
     expect(lst.tail.val).toBe(5);
   });
 
-  it("returns error if list is empty", function () {
-    let lst = new LinkedList();
-
-    lst.insertAt(6, 5);
-    expect(lst.insertAt(6, 5)).toContain('Error');
-  });
 });
 
 describe("pop", function () {
@@ -50,8 +43,9 @@ describe("pop", function () {
   it("returns error if list is empty", function () {
     let lst = new LinkedList();
 
-    lst.pop();
-    expect(lst.insertAt(6, 5)).toContain('Error');
+    expect(() => lst.pop()).toThrowError();
+    expect(() => lst.pop()).toThrow(new Error("Error: Cannot pop from an empty list"));
+
   });
 });
 
@@ -72,7 +66,8 @@ describe("shift", function () {
   it("returns error if list is empty", function () {
     let lst = new LinkedList();
 
-    expect(lst.shift()).toContain('Error');
+    expect(() => lst.shift()).toThrowError();
+    expect(() => lst.shift()).toThrow(new Error("Error: Cannot shift from an empty list"));
   });
 });
 
@@ -87,7 +82,7 @@ describe("getAt", function () {
   it("returns error if list is empty", function () {
     let lst = new LinkedList();
 
-    expect(lst.getAt(0)).toContain('Error');
+    expect(() => lst.getAt(0)).toThrow(new Error("Error: Cannot get from an empty list"));
   });
 });
 
@@ -104,7 +99,8 @@ describe("setAt", function () {
   it("returns error if list is empty", function () {
     let lst = new LinkedList();
 
-    expect(lst.pop()).toContain('Error');
+    expect(() => lst.setAt(1, 2)).toThrowError();
+    expect(() => lst.setAt(1, 2)).toThrow(new Error("Error: Index does not exist in list"));
   });
 });
 
@@ -116,11 +112,11 @@ describe("insertAt", function () {
     expect(lst.length).toBe(5);
     expect(lst.head.val).toBe(5);
     expect(lst.head.next.val).toBe(10);
-    expect(lst.head.next.next.val).toBe(12); // 5, 10, 12, 15, 20
+    expect(lst.head.next.next.val).toBe(12); 
     expect(lst.head.next.next.next.val).toBe(15);
     expect(lst.head.next.next.next.next.val).toBe(20);
 
-    lst.insertAt(5, 25); // 5, 10, 12, 15, 20 // if idx = this.length
+    lst.insertAt(5, 25); 
     expect(lst.head.next.next.next.next.next.val).toBe(25);
     expect(lst.tail.val).toBe(25);
   });
@@ -148,6 +144,6 @@ describe("removeAt", function () {
   it("returns error if list is empty", function () {
     let lst = new LinkedList();
 
-    expect(lst.removeAt(9)).toContain('Error');
+    expect(() => lst.removeAt(9)).toThrow(new Error("Error: Index does not exist in this list"));
   });
 });
