@@ -9,7 +9,9 @@ class LinkedListMore extends LinkedList {
     super(vals);
   }
 
-  /** getAt(idx): get val at idx. */
+  /** getAt(idx): get val at idx. 
+   * TODO: throw specific error types instead of generic
+  */
 
   getAt(idx = 0) {
     if (idx > this.length) {
