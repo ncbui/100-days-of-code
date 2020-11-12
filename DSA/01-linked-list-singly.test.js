@@ -23,6 +23,13 @@ describe("unshift", function () {
     expect(lst.head.next.next.val).toBe(5);
     expect(lst.tail.val).toBe(5);
   });
+
+  it("returns error if list is empty", function () {
+    let lst = new LinkedList();
+
+    lst.insertAt(6, 5);
+    expect(lst.insertAt(6, 5)).toContain('Error');
+  });
 });
 
 describe("pop", function () {
@@ -39,6 +46,13 @@ describe("pop", function () {
     expect(lst.head).toBe(null);
     expect(lst.length).toBe(0);
   });
+
+  it("returns error if list is empty", function () {
+    let lst = new LinkedList();
+
+    lst.pop();
+    expect(lst.insertAt(6, 5)).toContain('Error');
+  });
 });
 
 describe("shift", function () {
@@ -54,6 +68,12 @@ describe("shift", function () {
     expect(lst.head).toBe(null);
     expect(lst.length).toBe(0);
   });
+
+  it("returns error if list is empty", function () {
+    let lst = new LinkedList();
+
+    expect(lst.shift()).toContain('Error');
+  });
 });
 
 describe("getAt", function () {
@@ -62,6 +82,12 @@ describe("getAt", function () {
 
     expect(lst.getAt(0)).toBe(5);
     expect(lst.getAt(1)).toBe(10);
+  });
+
+  it("returns error if list is empty", function () {
+    let lst = new LinkedList();
+
+    expect(lst.getAt(0)).toContain('Error');
   });
 });
 
@@ -73,6 +99,12 @@ describe("setAt", function () {
     expect(lst.setAt(1, 2));
     expect(lst.head.val).toBe(1);
     expect(lst.head.next.val).toBe(2);
+  });
+
+  it("returns error if list is empty", function () {
+    let lst = new LinkedList();
+
+    expect(lst.pop()).toContain('Error');
   });
 });
 
@@ -111,5 +143,11 @@ describe("removeAt", function () {
     expect(lst.length).toBe(0);
     expect(lst.head).toBe(null);
     expect(lst.tail).toBe(null);
+  });
+
+  it("returns error if list is empty", function () {
+    let lst = new LinkedList();
+
+    expect(lst.removeAt(9)).toContain('Error');
   });
 });
