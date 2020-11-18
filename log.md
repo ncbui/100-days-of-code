@@ -52,6 +52,6 @@
 
 **Thoughts:** Added more tests for warbler's user models. Added first tests for message models.
 
-**Link to work:** [Warbler on *GitHub*](https://github.com/ncbui/Warbler/tree/ncbui-refactor) 
+**Link to work:** [Warbler on *GitHub*](https://github.com/ncbui/Warbler/tree/ncbui-refactor) [demo](https://cb-warbler-2020.herokuapp.com/login)
 
 
