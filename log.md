@@ -35,3 +35,23 @@
 **Thoughts:** There's a readjustment curve when jumping back into a codebase and picking up languages after a long break. I've created a branch of this but I wnder if I should fork instead? Spent today re-visiting old TODOs to reaquaint myself with the code. 
 
 **Link to work:** [Warbler on *GitHub*](https://github.com/ncbui/Warbler/tree/ncbui-refactor) 
+
+### Day 5: 16 November 2020
+<!-- ##### (delete me or comment me out) -->
+
+**Today's Progress**: Added tests to Warbler
+
+**Thoughts:** Added more tests for warbler's user model
+
+**Link to work:** [Warbler on *GitHub*](https://github.com/ncbui/Warbler/tree/ncbui-refactor) 
+
+### Day 6: 18 November 2020
+<!-- ##### (delete me or comment me out) -->
+
+**Today's Progress**: Deployed Warbler with a Heroku database. 
+
+**Thoughts:** Added more tests for warbler's user models. Added first tests for message models.
+
+**Link to work:** [Warbler on *GitHub*](https://github.com/ncbui/Warbler/tree/ncbui-refactor) 
+
+
