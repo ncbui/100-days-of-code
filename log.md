@@ -48,9 +48,9 @@
 ### Day 6: 18 November 2020
 <!-- ##### (delete me or comment me out) -->
 
-**Today's Progress**: Deployed Warbler with a Heroku database. 
+**Today's Progress**: Deployed Warbler with a Heroku database. Added more tests. Changed styling to match latest Twitter trend.
 
-**Thoughts:** Added more tests for warbler's user models. Added first tests for message models.
+**Thoughts:** Added more tests for warbler's user models. Added first tests for message models. I've picked the lower hanging fruits with the login page and landing page. Every few months I have to decide between sticky and fixed positioning and will spend a bit looking it up, only to consistently forget the differences. So it goes.
 
 **Link to work:** [Warbler on *GitHub*](https://github.com/ncbui/Warbler/tree/ncbui-refactor) [demo](https://cb-warbler-2020.herokuapp.com/login)
 
