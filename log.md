@@ -55,3 +55,15 @@
 **Link to work:** [Warbler on *GitHub*](https://github.com/ncbui/Warbler/tree/ncbui-refactor) [demo](https://cb-warbler-2020.herokuapp.com/login)
 
 
+### Day 7: 23 November 2020
+<!-- ##### (delete me or comment me out) -->
+
+**Today's Progress**: Rithm Hackathon: Getting to know D3.js and building snake in js. 
+
+**Thoughts:** Feeling a bit nostalgic while playing with this data visualization library. The declarative, object-oriented, animation-capable D3 is definitely a step up from manually cleaning data in Excel and making static dataviz with R.
+
+D3's data visualization methods abstract away the need to track whether data corresponds with DOM elements and seems to actively sort data into groups, or selections, even as data is filtered or manipulated. It strikes me that this is similar to giving each datum/DOM element pairing a state (*enter*, *update*, *exit*) and allowing users to act on datum based on its state. TODO: How does D3 efficiently monitor selections?
+
+**Link to work:** [OO Snake on *GitHub*](https://github.com/ncbui/JS-OO-Snake) 
+
+
