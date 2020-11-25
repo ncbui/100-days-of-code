@@ -66,4 +66,13 @@ D3's data visualization methods abstract away the need to track whether data cor
 
 **Link to work:** [OO Snake on *GitHub*](https://github.com/ncbui/JS-OO-Snake) 
 
+### Day 8: 24 November 2020
+<!-- ##### (delete me or comment me out) -->
+
+**Today's Progress**: Built a schema to drop/create a PSQL database, seeded it with data.
+
+**Thoughts:** I wrote a simple SQL query for a challenge, and wanted to put together a database to confirm that the query works as intended. Having sample data to play with helped me catch unexpected things, like nulls sorting before timestamps when I ORDERed by date DESC. This was a fairly quick to build on this template for other dbs and have a place to play with complex queries.
+
+**Link to work:** [PSQL Schema*](PSQL/Fundraising.sql) 
+
 
