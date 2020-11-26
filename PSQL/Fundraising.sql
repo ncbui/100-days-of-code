@@ -79,11 +79,11 @@ SELECT
     p.name,
     MAX(d.donation_date) AS most_recent_donation,
     MAX(e.date) AS most_recent_engagement,
-    CASE 
-    WHEN AVG(party)<0 THEN 'D'
-    WHEN AVG(party)>0 THEN 'R'
-    ELSE 'U'
-END party_preference,
+--     CASE 
+--     WHEN AVG(party)<0 THEN 'D'
+--     WHEN AVG(party)>0 THEN 'R'
+--     ELSE 'U'
+-- END party_preference,
     p.address_zip
 FROM people AS p
     LEFT JOIN donations AS d
