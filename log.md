@@ -75,4 +75,13 @@ D3's data visualization methods abstract away the need to track whether data cor
 
 **Link to work:** [PSQL Schema*](PSQL/Fundraising.sql) 
 
+### Day 9: 25 November 2020
+<!-- ##### (delete me or comment me out) -->
+
+**Today's Progress**: Worked on firstDuplicate and firstNotRepeating algos. Added a snake subclass (easy mode snake) that avoids walls (but sometimes eats itself when trapped in a corner). Added start button and styling. Set up a github page for the game.
+
+**Thoughts:** 
+
+**Link to work:** [Snake demo](https://ncbui.github.io/JS-OO-Snake/) [github](https://github.com/ncbui/JS-OO-Snake) 
+
 
