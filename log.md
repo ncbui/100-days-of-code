@@ -84,4 +84,40 @@ D3's data visualization methods abstract away the need to track whether data cor
 
 **Link to work:** [Snake demo](https://ncbui.github.io/JS-OO-Snake/) [github](https://github.com/ncbui/JS-OO-Snake) 
 
+### Day 9: 27 November 2020
+<!-- ##### (delete me or comment me out) -->
+
+**Today's Progress**: Added snakeDoublePrime subclass that bends the rules a bit. Added dropdown menu to give player choices between different modes.
+
+**Thoughts:** Slower progress today.
+
+**Link to work:** [Snake demo](https://ncbui.github.io/JS-OO-Snake/) [github](https://github.com/ncbui/JS-OO-Snake) 
+
+### Day 10: 28 November 2020
+<!-- ##### (delete me or comment me out) -->
+
+**Today's Progress**: Added snakeChaos subclass that randomly changes directions every 12 steps. Added drop down menu that selects between Snake classes. 
+
+**Thoughts:** 
+
+**Link to work:** [Snake demo](https://ncbui.github.io/JS-OO-Snake/) [github](https://github.com/ncbui/JS-OO-Snake) 
+
+### Day 11: 30 November 2020
+<!-- ##### (delete me or comment me out) -->
+
+**Today's Progress**: fixed an infinite loop with snakeDoublePrime by setting a limit on how many direction changes snakeDoublePrime can attempt. Manage event handlers on start button so that additional games cannot start while a game is in progress
+
+**Thoughts:** 
+
+**Link to work:** [Snake demo](https://ncbui.github.io/JS-OO-Snake/) [github](https://github.com/ncbui/JS-OO-Snake) 
+
+### Day 12: 1 December 2020
+<!-- ##### (delete me or comment me out) -->
+
+**Today's Progress**: Game can now toggle between single player and two player modes. Added info about snakes to page.
+
+**Thoughts:** 
+
+**Link to work:** [Snake demo](https://ncbui.github.io/JS-OO-Snake/) [github](https://github.com/ncbui/JS-OO-Snake) 
+
 
