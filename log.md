@@ -121,3 +121,22 @@ D3's data visualization methods abstract away the need to track whether data cor
 **Link to work:** [Snake demo](https://ncbui.github.io/JS-OO-Snake/) [github](https://github.com/ncbui/JS-OO-Snake) 
 
 
+### Day 13: 2 December 2020
+<!-- ##### (delete me or comment me out) -->
+
+**Today's Progress**: SnakeNPC avoids players now. Researching algos to help snake find pellets
+
+**Thoughts:** 
+
+**Link to work:** [Snake demo](https://ncbui.github.io/JS-OO-Snake/) [github](https://github.com/ncbui/JS-OO-Snake) 
+
+### Day 14: 3 December 2020
+<!-- ##### (delete me or comment me out) -->
+
+**Today's Progress**: Worked on a full stack movie app. Starting with an Express server 
+
+**Thoughts:** It feels like 8900 years since I've worked on an Express server. I spent more time planning and design. I'm starting with backend before frontend to hopefully save some work on the frontend. Not mentioned in GH is the use of Insomnia to explore both the IMDB api and my newly built server. 
+
+**Link to work:** [IMApi on GH](https://github.com/ncbui/IMApi) 
+
+
