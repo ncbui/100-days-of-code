@@ -25,26 +25,29 @@
  */
 
 function hourglassSum(arr) {
-
-  function _hourglassHelper(arr, r, c) {
-    let sum = arr[r][c] + arr[r - 1][c - 1] + arr[r - 1][c] +
-      arr[r - 1][c + 1] + arr[r + 1][c - 1] + arr[r + 1][c] + arr[r + 1][c + 1];
-    return sum;
-  }
-
   let sumsOfHG = {};
-  let r = 1;
+  let r = 1; 
   let c = 1;
 
   while (r <= 4) {
-    c = 1;
+    c = 1; // reset column count at each row
     while (c <= 4) {
-      let sum = _hourglassHelper(arr, r, c);
+      let sum = _hourglassSum(arr, r, c);
       sumsOfHG[`${r}${c}`] = sum;
       c++;
     }
     r++;
   }
-
   return Object.values(sumsOfHG).sort((a, b) => b - a)[0]
+}
+
+function _hourglassSum(arr, r, c) {
+  let sum = arr[r][c] + // center 
+    arr[r - 1][c - 1] + // row above
+    arr[r - 1][c] +
+    arr[r - 1][c + 1] +
+    arr[r + 1][c - 1] +  // row below
+    arr[r + 1][c] +
+    arr[r + 1][c + 1];
+  return sum;
 }
