@@ -139,4 +139,51 @@ D3's data visualization methods abstract away the need to track whether data cor
 
 **Link to work:** [IMApi on GH](https://github.com/ncbui/IMApi) 
 
+### Day 15: 4 December 2020
+<!-- ##### (delete me or comment me out) -->
+
+**Today's Progress**: Added DB to the app and started React portion. Started building out voting functionality. 
+
+**Link to work:** [IMApi on GH](https://github.com/ncbui/IMApi) 
+
+
+### Day 16: 7 December 2020
+<!-- ##### (delete me or comment me out) -->
+
+**Today's Progress**: Array questions on HackerRank
+
+**Link to work:** 
+
+### Day 17: 9 December 2020
+<!-- ##### (delete me or comment me out) -->
+
+**Today's Progress**: LinkedList questions on HackerRank
+
+**Link to work:** 
+
+### Day 18: 10 December 2020
+<!-- ##### (delete me or comment me out) -->
+
+**Today's Progress**: Algorithm problems and linked list problems from Hackerrank
+
+**Link to work:** 
+
+### Day 19: 16 December 2020
+<!-- ##### (delete me or comment me out) -->
+
+**Today's Progress**: Adding a method for snakeNPC to find the closest pellet
+
+**Thoughts:** Using vector math to brute force to make a proof of concept here. Brute force currently includes using Pythogorean's theorem to find distance and using the a vector to guide snakeNPC's new direction.
+
+**Link to work:** [Snake demo](https://ncbui.github.io/JS-OO-Snake/) [github](https://github.com/ncbui/JS-OO-Snake) 
+
+### Day 20: 17 December 2020
+<!-- ##### (delete me or comment me out) -->
+
+**Today's Progress**: Adding a method for snakeNPC to find the closest pellet. Completed a techscreen that emphasized array manipulation.
+
+**Thoughts:** Finishing up with this brute force proof of concept. Vector math isn't working as expected and leading to a bug where the snake disappears entirely. I'm on the lookout for algorithms that could be used in this context. 
+
+**Link to work:** [Snake demo](https://ncbui.github.io/JS-OO-Snake/) [github](https://github.com/ncbui/JS-OO-Snake) 
+
 
