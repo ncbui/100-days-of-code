@@ -186,4 +186,22 @@ D3's data visualization methods abstract away the need to track whether data cor
 
 **Link to work:** [Snake demo](https://ncbui.github.io/JS-OO-Snake/) [github](https://github.com/ncbui/JS-OO-Snake) 
 
+### Day 20: 18 December 2020
+<!-- ##### (delete me or comment me out) -->
+
+**Today's Progress**: Looking for an algorithm to find the nearest pellet.
+
+**Thoughts:** Based on the answers to [this stack overflow Q](https://stackoverflow.com/questions/1901139/closest-point-to-a-given-point), I did a bit of research on implementation of (1) simple spiral search, (2) nearest neighbor search (D. Knuth dubbed post-office problem), (3) point location using Trapezoidal Maps and Voronoi Diagrams. 
+
+
+My previous attempt was a naive implementation of the nearest neighbor search; I could improve it be tracking just the closest instead of using a object to track all distances. Determining the nearest neighbor with my solution was O(n) to computer distances for all points and O(n) to compute the minimum (not needed if we track just the closest instead of all distances).
+
+    Took some time to look into a variant of it, kNN, which forms the base for one of the simplest ML algos according to Patrick Winston [(Intro to ML nearest neighbor lecture)](https://www.youtube.com/watch?v=09mb78oiPkA&ab_channel=MITOpenCourseWare). 
+
+Simple spiral search algo may be the simplest solution for a discrete 2d space with such a small number of pellets. But it is essentially an approximation approach to the NNS. I'm not sure about the time/space complexity of this. Best case, the head and pellet are close by, worst case the closest pellets are across the screening and the spiral would loop multiple times to find it. But it would only need one seed point to do so, so would this amortize to O(1)?
+
+point location with voronoi diagrams requires computational power to create the diagrams but allows for incredibly fast search. Found a js implementation to construct voronoi diagrams: [gorhill](https://github.com/gorhill/Javascript-Voronoi). I could pass food pellets as sites to the voronoi object, query for the cell containing snake's head, and find the pellet associated with that cell.  Diagram creation time would be O(n log n), which is negligible for 3 sites. Query time O(log n) where n = number pellets. 
+
+**Link to work:** [Snake demo](https://ncbui.github.io/JS-OO-Snake/) [github](https://github.com/ncbui/JS-OO-Snake) 
+
 
