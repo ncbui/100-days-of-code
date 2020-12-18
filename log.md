@@ -168,7 +168,7 @@ D3's data visualization methods abstract away the need to track whether data cor
 
 **Link to work:** 
 
-### Day 19: 16 December 2020
+### Day 19: 15 December 2020
 <!-- ##### (delete me or comment me out) -->
 
 **Today's Progress**: Adding a method for snakeNPC to find the closest pellet
@@ -177,7 +177,7 @@ D3's data visualization methods abstract away the need to track whether data cor
 
 **Link to work:** [Snake demo](https://ncbui.github.io/JS-OO-Snake/) [github](https://github.com/ncbui/JS-OO-Snake) 
 
-### Day 20: 17 December 2020
+### Day 20: 16 December 2020
 <!-- ##### (delete me or comment me out) -->
 
 **Today's Progress**: Adding a method for snakeNPC to find the closest pellet. Completed a techscreen that emphasized array manipulation.
@@ -186,7 +186,7 @@ D3's data visualization methods abstract away the need to track whether data cor
 
 **Link to work:** [Snake demo](https://ncbui.github.io/JS-OO-Snake/) [github](https://github.com/ncbui/JS-OO-Snake) 
 
-### Day 20: 18 December 2020
+### Day 20: 17 December 2020
 <!-- ##### (delete me or comment me out) -->
 
 **Today's Progress**: Looking for an algorithm to find the nearest pellet.
