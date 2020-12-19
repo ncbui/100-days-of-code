@@ -204,4 +204,13 @@ point location with voronoi diagrams requires computational power to create the 
 
 **Link to work:** [Snake demo](https://ncbui.github.io/JS-OO-Snake/) [github](https://github.com/ncbui/JS-OO-Snake) 
 
+### Day 21: 18 December 2020
+<!-- ##### (delete me or comment me out) -->
+
+**Today's Progress**: Refactored the food detection method for snake NPC. Looked into approximate nearest neighbors, stumbled upon vector models as a means of any-angle path planning, a subset of pathfinding. 
+
+**Thoughts:** Is it overkill to implement point location algo for such a small 2D space? Or is it easier to try and test these algos because it's such a small space.
+
+**Link to work:** [Snake demo](https://ncbui.github.io/JS-OO-Snake/) [github](https://github.com/ncbui/JS-OO-Snake) 
+
 
