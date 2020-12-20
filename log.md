@@ -227,7 +227,7 @@ Still, Manhattan distance is the standard heuristic for a square grid that allow
         dy = abs(node.y - goal.y)
         return D * (dx + dy)
 
-Amit's heuristic page also offers a way to break ties by preferring paths by calculating a cross product between a straight line to the goal and the current path. Making note of it here to explore how it could be used to smooth out snakeNPC's path.
+Amit's heuristic page also offers a way to break ties by preferring paths by calculating a cross product between a straight line to the goal and the current path. The cross product computes to zero if the paths line up and grows as the distance between vectors grow. Making note of it here to explore how it could be used to smooth out snakeNPC's path.
     dx1 = current.x - goal.x
     dy1 = current.y - goal.y
     dx2 = start.x - goal.x
