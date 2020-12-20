@@ -209,8 +209,33 @@ point location with voronoi diagrams requires computational power to create the 
 
 **Today's Progress**: Refactored the food detection method for snake NPC. Looked into approximate nearest neighbors, stumbled upon vector models as a means of any-angle path planning, a subset of pathfinding. 
 
-**Thoughts:** Is it overkill to implement point location algo for such a small 2D space? Or is it easier to try and test these algos because it's such a small space.
+**Thoughts:** Is it overkill to implement point location and pathfinding algo for such a small 2D space? Or is it easier to try and test these algos because it's such a small space.
 
 **Link to work:** [Snake demo](https://ncbui.github.io/JS-OO-Snake/) [github](https://github.com/ncbui/JS-OO-Snake) 
+
+
+### Day 22: 19 December 2020
+<!-- ##### (delete me or comment me out) -->
+
+**Today's Progress**: Read Amit Patel's [Pathfinding with A*](http://theory.stanford.edu/~amitp/GameProgramming/) and [Heuristic blog](http://theory.stanford.edu/~amitp/GameProgramming/Heuristics.html). 
+
+**Thoughts:** I've been working on a movement-only algorithm (taking the local environment into consideration at each step) instead of a true pathfinding algorithm. On a grid like the Snake game, where the game world is constantly changing based on player movement and pellets constantly reappear or disappear, expensive pathfinding computations quickly become obsolete and pathfinding algos are less useful. 
+
+Still, Manhattan distance is the standard heuristic for a square grid that allows movement in 4 directions according to Amit Patel. Maybe this is the reason for the bugginess of snakeNPC. I'm using Euclidean, diagonal distance to determine the nearest pellet. But that doesn't always translate in movement, because snakeNPC would have to take many more steps to follow that diagonal. In chess terms, a Euclidean heuristic would be the best choice if snakeNPC was a Queen. But snakeNPC is actually a Rook, and Manhattan heuristic is the standard for that.
+    function heuristic(node) =
+        dx = abs(node.x - goal.x)
+        dy = abs(node.y - goal.y)
+        return D * (dx + dy)
+
+Amit's heuristic page also offers a way to break ties by preferring paths by calculating a cross product between a straight line to the goal and the current path. Making note of it here to explore how it could be used to smooth out snakeNPC's path.
+    dx1 = current.x - goal.x
+    dy1 = current.y - goal.y
+    dx2 = start.x - goal.x
+    dy2 = start.y - goal.y
+    cross = abs(dx1*dy2 - dx2*dy1)
+    heuristic += cross*0.001
+
+
+**Link to work:** NA
 
 
