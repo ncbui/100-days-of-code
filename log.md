@@ -1,5 +1,7 @@
 # 100 Days Of Code - Log
 
+
+
 ### Day 1: 9 November 2020
 <!-- ##### (delete me or comment me out) -->
 
@@ -8,6 +10,8 @@
 **Thoughts:**  Struggled to get recursive summation to work; originally set base case to `return;`, but needed to `return 0;`. 
 
 **Link to work:** [Linked Lists - recursive mean](DSA/00-recursive-mean.js) [[*test*](DSA/00-recursive-mean.test.js)]
+
+
 
 ### Day 2: 10 November 2020
 <!-- ##### (delete me or comment me out) -->
@@ -18,6 +22,8 @@
 
 **Link to work:** [Linked Lists - common methods](DSA/01-linked-list-singly.js) [[*test*](DSA/01-linked-list-singly.test.js)]
 
+
+
 ### Day 3: 11 November 2020
 <!-- ##### (delete me or comment me out) -->
 
@@ -26,6 +32,8 @@
 **Thoughts:** I forgot to add expression to stop code execution on exception. I opted to throw error objects to try my hand at writing tests for exceptions. These methods would be called by an outer function with error handling, they do not include try/catch blocks to avoid burying the error. When writing jest tests for fn that throw without catching, we need to pass that fn to jest as a callback, so jest can prepare to catch the error before asserting. Runtime exceptions are supercharged returns, they can stop the entire callstack when throw.
 
 **Link to work:** [Linked Lists - common methods](DSA/01-linked-list-singly.js) [[*test*](DSA/01-linked-list-singly.test.js)]
+
+
 
 ### Day 4: 13 November 2020
 <!-- ##### (delete me or comment me out) -->
@@ -36,6 +44,8 @@
 
 **Link to work:** [Warbler on *GitHub*](https://github.com/ncbui/Warbler/tree/ncbui-refactor) 
 
+
+
 ### Day 5: 16 November 2020
 <!-- ##### (delete me or comment me out) -->
 
@@ -45,6 +55,8 @@
 
 **Link to work:** [Warbler on *GitHub*](https://github.com/ncbui/Warbler/tree/ncbui-refactor) 
 
+
+
 ### Day 6: 18 November 2020
 <!-- ##### (delete me or comment me out) -->
 
@@ -53,6 +65,8 @@
 **Thoughts:** Added more tests for warbler's user models. Added first tests for message models. I've picked the lower hanging fruits with the login page and landing page. Every few months I have to decide between sticky and fixed positioning and will spend a bit looking it up, only to consistently forget the differences. So it goes.
 
 **Link to work:** [Warbler on *GitHub*](https://github.com/ncbui/Warbler/tree/ncbui-refactor) [demo](https://cb-warbler-2020.herokuapp.com/login)
+
+
 
 
 ### Day 7: 23 November 2020
@@ -66,6 +80,8 @@ D3's data visualization methods abstract away the need to track whether data cor
 
 **Link to work:** [OO Snake on *GitHub*](https://github.com/ncbui/JS-OO-Snake) 
 
+
+
 ### Day 8: 24 November 2020
 <!-- ##### (delete me or comment me out) -->
 
@@ -74,6 +90,8 @@ D3's data visualization methods abstract away the need to track whether data cor
 **Thoughts:** I wrote a simple SQL query for a challenge, and wanted to put together a database to confirm that the query works as intended. Having sample data to play with helped me catch unexpected things, like nulls sorting before timestamps when I ORDERed by date DESC. This was a fairly quick to build on this template for other dbs and have a place to play with complex queries.
 
 **Link to work:** [PSQL Schema*](PSQL/Fundraising.sql) 
+
+
 
 ### Day 9: 25 November 2020
 <!-- ##### (delete me or comment me out) -->
@@ -84,6 +102,8 @@ D3's data visualization methods abstract away the need to track whether data cor
 
 **Link to work:** [Snake demo](https://ncbui.github.io/JS-OO-Snake/) [github](https://github.com/ncbui/JS-OO-Snake) 
 
+
+
 ### Day 9: 27 November 2020
 <!-- ##### (delete me or comment me out) -->
 
@@ -92,6 +112,8 @@ D3's data visualization methods abstract away the need to track whether data cor
 **Thoughts:** Slower progress today.
 
 **Link to work:** [Snake demo](https://ncbui.github.io/JS-OO-Snake/) [github](https://github.com/ncbui/JS-OO-Snake) 
+
+
 
 ### Day 10: 28 November 2020
 <!-- ##### (delete me or comment me out) -->
@@ -102,6 +124,8 @@ D3's data visualization methods abstract away the need to track whether data cor
 
 **Link to work:** [Snake demo](https://ncbui.github.io/JS-OO-Snake/) [github](https://github.com/ncbui/JS-OO-Snake) 
 
+
+
 ### Day 11: 30 November 2020
 <!-- ##### (delete me or comment me out) -->
 
@@ -110,6 +134,8 @@ D3's data visualization methods abstract away the need to track whether data cor
 **Thoughts:** 
 
 **Link to work:** [Snake demo](https://ncbui.github.io/JS-OO-Snake/) [github](https://github.com/ncbui/JS-OO-Snake) 
+
+
 
 ### Day 12: 1 December 2020
 <!-- ##### (delete me or comment me out) -->
@@ -121,6 +147,8 @@ D3's data visualization methods abstract away the need to track whether data cor
 **Link to work:** [Snake demo](https://ncbui.github.io/JS-OO-Snake/) [github](https://github.com/ncbui/JS-OO-Snake) 
 
 
+
+
 ### Day 13: 2 December 2020
 <!-- ##### (delete me or comment me out) -->
 
@@ -129,6 +157,8 @@ D3's data visualization methods abstract away the need to track whether data cor
 **Thoughts:** 
 
 **Link to work:** [Snake demo](https://ncbui.github.io/JS-OO-Snake/) [github](https://github.com/ncbui/JS-OO-Snake) 
+
+
 
 ### Day 14: 3 December 2020
 <!-- ##### (delete me or comment me out) -->
@@ -139,12 +169,16 @@ D3's data visualization methods abstract away the need to track whether data cor
 
 **Link to work:** [IMApi on GH](https://github.com/ncbui/IMApi) 
 
+
+
 ### Day 15: 4 December 2020
 <!-- ##### (delete me or comment me out) -->
 
 **Today's Progress**: Added DB to the app and started React portion. Started building out voting functionality. 
 
 **Link to work:** [IMApi on GH](https://github.com/ncbui/IMApi) 
+
+
 
 
 ### Day 16: 7 December 2020
@@ -154,6 +188,8 @@ D3's data visualization methods abstract away the need to track whether data cor
 
 **Link to work:** 
 
+
+
 ### Day 17: 9 December 2020
 <!-- ##### (delete me or comment me out) -->
 
@@ -161,12 +197,16 @@ D3's data visualization methods abstract away the need to track whether data cor
 
 **Link to work:** 
 
+
+
 ### Day 18: 10 December 2020
 <!-- ##### (delete me or comment me out) -->
 
 **Today's Progress**: Algorithm problems and linked list problems from Hackerrank
 
 **Link to work:** 
+
+
 
 ### Day 19: 15 December 2020
 <!-- ##### (delete me or comment me out) -->
@@ -177,6 +217,8 @@ D3's data visualization methods abstract away the need to track whether data cor
 
 **Link to work:** [Snake demo](https://ncbui.github.io/JS-OO-Snake/) [github](https://github.com/ncbui/JS-OO-Snake) 
 
+
+
 ### Day 20: 16 December 2020
 <!-- ##### (delete me or comment me out) -->
 
@@ -185,6 +227,8 @@ D3's data visualization methods abstract away the need to track whether data cor
 **Thoughts:** Finishing up with this brute force proof of concept. Vector math isn't working as expected and leading to a bug where the snake disappears entirely. I'm on the lookout for algorithms that could be used in this context. 
 
 **Link to work:** [Snake demo](https://ncbui.github.io/JS-OO-Snake/) [github](https://github.com/ncbui/JS-OO-Snake) 
+
+
 
 ### Day 20: 17 December 2020
 <!-- ##### (delete me or comment me out) -->
@@ -204,6 +248,8 @@ point location with voronoi diagrams requires computational power to create the 
 
 **Link to work:** [Snake demo](https://ncbui.github.io/JS-OO-Snake/) [github](https://github.com/ncbui/JS-OO-Snake) 
 
+
+
 ### Day 21: 18 December 2020
 <!-- ##### (delete me or comment me out) -->
 
@@ -214,6 +260,8 @@ point location with voronoi diagrams requires computational power to create the 
 **Link to work:** [Snake demo](https://ncbui.github.io/JS-OO-Snake/) [github](https://github.com/ncbui/JS-OO-Snake) 
 
 
+
+
 ### Day 22: 19 December 2020
 <!-- ##### (delete me or comment me out) -->
 
@@ -222,20 +270,37 @@ point location with voronoi diagrams requires computational power to create the 
 **Thoughts:** I've been working on a movement-only algorithm (taking the local environment into consideration at each step) instead of a true pathfinding algorithm. On a grid like the Snake game, where the game world is constantly changing based on player movement and pellets constantly reappear or disappear, expensive pathfinding computations quickly become obsolete and pathfinding algos are less useful. 
 
 Still, Manhattan distance is the standard heuristic for a square grid that allows movement in 4 directions according to Amit Patel. Maybe this is the reason for the bugginess of snakeNPC. I'm using Euclidean, diagonal distance to determine the nearest pellet. But that doesn't always translate in movement, because snakeNPC would have to take many more steps to follow that diagonal. In chess terms, a Euclidean heuristic would be the best choice if snakeNPC was a Queen. But snakeNPC is actually a Rook, and Manhattan heuristic is the standard for that.
+
+```
     function heuristic(node) =
         dx = abs(node.x - goal.x)
         dy = abs(node.y - goal.y)
         return D * (dx + dy)
+```
 
 Amit's heuristic page also offers a way to break ties by preferring paths by calculating a cross product between a straight line to the goal and the current path. The cross product computes to zero if the paths line up and grows as the distance between vectors grow. Making note of it here to explore how it could be used to smooth out snakeNPC's path.
+
+```
     dx1 = current.x - goal.x
     dy1 = current.y - goal.y
     dx2 = start.x - goal.x
     dy2 = start.y - goal.y
     cross = abs(dx1*dy2 - dx2*dy1)
     heuristic += cross*0.001
-
+```
 
 **Link to work:** NA
+
+
+
+### Day 23: 20 December 2020
+<!-- ##### (delete me or comment me out) -->
+
+**Today's Progress**: Manhattan distance now used to ID closest pellet. Now uses absolute value to determine whether the horizontal or vertical distance is smallest.
+
+**Thoughts:** Path is a lot smoother now, but snakeNPC is trapping itself once it gets even longer. Maybe I should incorporate some pathfinding logic to help snakeNPC ID and avoid convex traps.
+
+
+**Link to work:** [Snake demo](https://ncbui.github.io/JS-OO-Snake/) [github](https://github.com/ncbui/JS-OO-Snake) 
 
 
