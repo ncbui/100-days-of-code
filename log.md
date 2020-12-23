@@ -296,11 +296,24 @@ Amit's heuristic page also offers a way to break ties by preferring paths by cal
 ### Day 23: 20 December 2020
 <!-- ##### (delete me or comment me out) -->
 
-**Today's Progress**: Manhattan distance now used to ID closest pellet. Now uses absolute value to determine whether the horizontal or vertical distance is smallest.
+**Today's Progress**: Manhattan distance now used to ID closest pellet. Now uses absolute value to determine whether the horizontal or vertical distance is smallest. Added scoring functionality. Used canvasAPI to declare scores and winners. 
+
+Read Amit Patel's [Dealing with moving obstacles](http://theory.stanford.edu/~amitp/GameProgramming/MovingObstacles.html)
 
 **Thoughts:** Path is a lot smoother now, but snakeNPC is trapping itself once it gets even longer. Maybe I should incorporate some pathfinding logic to help snakeNPC ID and avoid convex traps.
 
 
 **Link to work:** [Snake demo](https://ncbui.github.io/JS-OO-Snake/) [github](https://github.com/ncbui/JS-OO-Snake) 
+
+
+### Day 24: 21 December 2020
+<!-- ##### (delete me or comment me out) -->
+
+**Today's Progress**: Worked on a hackerrank tech screen for the onramp applications
+
+**Thoughts:** Screen involved questions related to data structure questions, CSS/HTML, and algo implementations. Struggled a bit with a treasure map algo to remove opposite directions, hit an aha moment when I switched to using a different data structure.
+
+
+**Link to work:** NA
 
 
