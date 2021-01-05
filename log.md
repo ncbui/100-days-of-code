@@ -317,3 +317,16 @@ Read Amit Patel's [Dealing with moving obstacles](http://theory.stanford.edu/~am
 **Link to work:** NA
 
 
+
+### Day 25: 4 January 2021
+<!-- ##### (delete me or comment me out) -->
+
+**Today's Progress**: DRYd up classes and methods with Snake OO. Worked on the minimum cost to convert to a magic square problem
+
+**Thoughts:** 
+Spent a couple of hours on the magic square problem only to find that my approach was way too complicated. It turned out to be fairly straight-forward once I found the right approach. It's one of those pesky 'gotta know how to solve it to solve it' problems. General advice I've received for that is to grind leetcode and hackerrank problems until I'm familiar with them all. 
+
+Saw an interesting statement: "First, solve the problem. Then, write the code," attributed to John Johnson
+
+
+**Link to work:** [Snake demo](https://ncbui.github.io/JS-OO-Snake/) [github](https://github.com/ncbui/JS-OO-Snake) 
