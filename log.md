@@ -321,7 +321,7 @@ Read Amit Patel's [Dealing with moving obstacles](http://theory.stanford.edu/~am
 ### Day 25: 4 January 2021
 <!-- ##### (delete me or comment me out) -->
 
-**Today's Progress**: DRYd up classes and methods with Snake OO. Worked on the minimum cost to convert to a magic square problem
+**Today's Progress**: DRYd up classes and methods with Snake OO. Worked on the minimum cost to convert to a magic square problem, got a interview prep plan down.
 
 **Thoughts:** 
 Spent a couple of hours on the magic square problem only to find that my approach was way too complicated. It turned out to be fairly straight-forward once I found the right approach. It's one of those pesky 'gotta know how to solve it to solve it' problems. General advice I've received for that is to grind leetcode and hackerrank problems until I'm familiar with them all. 
@@ -330,3 +330,26 @@ Saw an interesting statement: "First, solve the problem. Then, write the code," 
 
 
 **Link to work:** [Snake demo](https://ncbui.github.io/JS-OO-Snake/) [github](https://github.com/ncbui/JS-OO-Snake) 
+
+### Day 26: 6 January 2021
+<!-- ##### (delete me or comment me out) -->
+
+**Today's Progress**: Applied to the , included some Ruby and Rails exposure. Interview prep for TW. 
+
+**Thoughts:** 
+Spent a couple of hours on the magic square problem only to find that my approach was way too complicated. It turned out to be fairly straight-forward once I found the right approach. It's one of those pesky 'gotta know how to solve it to solve it' problems. General advice I've received for that is to grind leetcode and hackerrank problems until I'm familiar with them all. 
+
+Saw an interesting statement: "First, solve the problem. Then, write the code," attributed to John Johnson
+
+
+**Link to work:** [Snake demo](https://ncbui.github.io/JS-OO-Snake/) [github](https://github.com/ncbui/JS-OO-Snake) 
+
+### Day 27: 12 January 2021
+<!-- ##### (delete me or comment me out) -->
+
+**Today's Progress**: Working through behavioral and presentational bits of interview prep. Doing on array problems from Cracking the Coding Interview.
+
+**Thoughts:** The personal is political and vice versa. The attempted coup by white supremacists on Jan 5, 2021 has nothing to do with code, but has many things to do with the coder. It's not shocking, but its impact is still heavy.
+
+
+**Link to work:** [Arrays](arrays/)
