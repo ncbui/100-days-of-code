@@ -3,7 +3,6 @@
 
 
 ### Day 1: 9 November 2020
-<!-- ##### (delete me or comment me out) -->
 
 **Today's Progress**: Implemented a singly linked list as a class. Added methods to calculate the means recursively and iteratively. Wrote jest tests.
 
@@ -14,7 +13,6 @@
 
 
 ### Day 2: 10 November 2020
-<!-- ##### (delete me or comment me out) -->
 
 **Today's Progress**: Extended Day 1's class and added common linked list methods.
 
@@ -25,7 +23,6 @@
 
 
 ### Day 3: 11 November 2020
-<!-- ##### (delete me or comment me out) -->
 
 **Today's Progress**: Changed methods to throw error objects, per [Joyent's Error Handling in Node.js](https://www.joyent.com/node-js/production/design/errors). Wrote Jest test to catch error objects, passing anonymous arrow functions per [Jest documentation for .tothrowError()](https://jestjs.io/docs/en/expect#tothrowerror).   
 
@@ -36,7 +33,6 @@
 
 
 ### Day 4: 13 November 2020
-<!-- ##### (delete me or comment me out) -->
 
 **Today's Progress**: Revisted code for warbler. Fixed CSS for hero header so image responsively adjusts. Following/Following refreshes same page. Added more to README. 
 
@@ -47,7 +43,6 @@
 
 
 ### Day 5: 16 November 2020
-<!-- ##### (delete me or comment me out) -->
 
 **Today's Progress**: Added tests to Warbler
 
@@ -58,7 +53,6 @@
 
 
 ### Day 6: 18 November 2020
-<!-- ##### (delete me or comment me out) -->
 
 **Today's Progress**: Deployed Warbler with a Heroku database. Added more tests. Changed styling to match latest Twitter trend.
 
@@ -70,7 +64,6 @@
 
 
 ### Day 7: 23 November 2020
-<!-- ##### (delete me or comment me out) -->
 
 **Today's Progress**: Rithm Hackathon: Getting to know D3.js and building snake in js. 
 
@@ -83,7 +76,6 @@ D3's data visualization methods abstract away the need to track whether data cor
 
 
 ### Day 8: 24 November 2020
-<!-- ##### (delete me or comment me out) -->
 
 **Today's Progress**: Built a schema to drop/create a PSQL database, seeded it with data.
 
@@ -94,7 +86,6 @@ D3's data visualization methods abstract away the need to track whether data cor
 
 
 ### Day 9: 25 November 2020
-<!-- ##### (delete me or comment me out) -->
 
 **Today's Progress**: Worked on firstDuplicate and firstNotRepeating algos. Added a snake subclass (easy mode snake) that avoids walls (but sometimes eats itself when trapped in a corner). Added start button and styling. Set up a github page for the game.
 
@@ -105,7 +96,6 @@ D3's data visualization methods abstract away the need to track whether data cor
 
 
 ### Day 9: 27 November 2020
-<!-- ##### (delete me or comment me out) -->
 
 **Today's Progress**: Added snakeDoublePrime subclass that bends the rules a bit. Added dropdown menu to give player choices between different modes.
 
@@ -116,7 +106,6 @@ D3's data visualization methods abstract away the need to track whether data cor
 
 
 ### Day 10: 28 November 2020
-<!-- ##### (delete me or comment me out) -->
 
 **Today's Progress**: Added snakeChaos subclass that randomly changes directions every 12 steps. Added drop down menu that selects between Snake classes. 
 
@@ -127,7 +116,6 @@ D3's data visualization methods abstract away the need to track whether data cor
 
 
 ### Day 11: 30 November 2020
-<!-- ##### (delete me or comment me out) -->
 
 **Today's Progress**: fixed an infinite loop with snakeDoublePrime by setting a limit on how many direction changes snakeDoublePrime can attempt. Manage event handlers on start button so that additional games cannot start while a game is in progress
 
@@ -138,7 +126,6 @@ D3's data visualization methods abstract away the need to track whether data cor
 
 
 ### Day 12: 1 December 2020
-<!-- ##### (delete me or comment me out) -->
 
 **Today's Progress**: Game can now toggle between single player and two player modes. Added info about snakes to page.
 
@@ -150,7 +137,6 @@ D3's data visualization methods abstract away the need to track whether data cor
 
 
 ### Day 13: 2 December 2020
-<!-- ##### (delete me or comment me out) -->
 
 **Today's Progress**: SnakeNPC avoids players now. Researching algos to help snake find pellets
 
@@ -161,7 +147,6 @@ D3's data visualization methods abstract away the need to track whether data cor
 
 
 ### Day 14: 3 December 2020
-<!-- ##### (delete me or comment me out) -->
 
 **Today's Progress**: Worked on a full stack movie app. Starting with an Express server 
 
@@ -172,7 +157,6 @@ D3's data visualization methods abstract away the need to track whether data cor
 
 
 ### Day 15: 4 December 2020
-<!-- ##### (delete me or comment me out) -->
 
 **Today's Progress**: Added DB to the app and started React portion. Started building out voting functionality. 
 
@@ -182,7 +166,6 @@ D3's data visualization methods abstract away the need to track whether data cor
 
 
 ### Day 16: 7 December 2020
-<!-- ##### (delete me or comment me out) -->
 
 **Today's Progress**: Array questions on HackerRank
 
@@ -191,7 +174,6 @@ D3's data visualization methods abstract away the need to track whether data cor
 
 
 ### Day 17: 9 December 2020
-<!-- ##### (delete me or comment me out) -->
 
 **Today's Progress**: LinkedList questions on HackerRank
 
@@ -200,7 +182,6 @@ D3's data visualization methods abstract away the need to track whether data cor
 
 
 ### Day 18: 10 December 2020
-<!-- ##### (delete me or comment me out) -->
 
 **Today's Progress**: Algorithm problems and linked list problems from Hackerrank
 
@@ -209,7 +190,6 @@ D3's data visualization methods abstract away the need to track whether data cor
 
 
 ### Day 19: 15 December 2020
-<!-- ##### (delete me or comment me out) -->
 
 **Today's Progress**: Adding a method for snakeNPC to find the closest pellet
 
@@ -220,7 +200,6 @@ D3's data visualization methods abstract away the need to track whether data cor
 
 
 ### Day 20: 16 December 2020
-<!-- ##### (delete me or comment me out) -->
 
 **Today's Progress**: Adding a method for snakeNPC to find the closest pellet. Completed a techscreen that emphasized array manipulation.
 
@@ -231,7 +210,6 @@ D3's data visualization methods abstract away the need to track whether data cor
 
 
 ### Day 20: 17 December 2020
-<!-- ##### (delete me or comment me out) -->
 
 **Today's Progress**: Looking for an algorithm to find the nearest pellet.
 
@@ -251,7 +229,6 @@ point location with voronoi diagrams requires computational power to create the 
 
 
 ### Day 21: 18 December 2020
-<!-- ##### (delete me or comment me out) -->
 
 **Today's Progress**: Refactored the food detection method for snake NPC. Looked into approximate nearest neighbors, stumbled upon vector models as a means of any-angle path planning, a subset of pathfinding. 
 
@@ -263,7 +240,6 @@ point location with voronoi diagrams requires computational power to create the 
 
 
 ### Day 22: 19 December 2020
-<!-- ##### (delete me or comment me out) -->
 
 **Today's Progress**: Read Amit Patel's [Pathfinding with A*](http://theory.stanford.edu/~amitp/GameProgramming/) and [Heuristic blog](http://theory.stanford.edu/~amitp/GameProgramming/Heuristics.html). 
 
@@ -294,7 +270,6 @@ Amit's heuristic page also offers a way to break ties by preferring paths by cal
 
 
 ### Day 23: 20 December 2020
-<!-- ##### (delete me or comment me out) -->
 
 **Today's Progress**: Manhattan distance now used to ID closest pellet. Now uses absolute value to determine whether the horizontal or vertical distance is smallest. Added scoring functionality. Used canvasAPI to declare scores and winners. 
 
@@ -307,7 +282,6 @@ Read Amit Patel's [Dealing with moving obstacles](http://theory.stanford.edu/~am
 
 
 ### Day 24: 21 December 2020
-<!-- ##### (delete me or comment me out) -->
 
 **Today's Progress**: Worked on a hackerrank tech screen for the onramp applications
 
@@ -319,7 +293,6 @@ Read Amit Patel's [Dealing with moving obstacles](http://theory.stanford.edu/~am
 
 
 ### Day 25: 4 January 2021
-<!-- ##### (delete me or comment me out) -->
 
 **Today's Progress**: DRYd up classes and methods with Snake OO. Worked on the minimum cost to convert to a magic square problem, got a interview prep plan down.
 
@@ -332,7 +305,6 @@ Saw an interesting statement: "First, solve the problem. Then, write the code," 
 **Link to work:** [Snake demo](https://ncbui.github.io/JS-OO-Snake/) [github](https://github.com/ncbui/JS-OO-Snake) 
 
 ### Day 26: 6 January 2021
-<!-- ##### (delete me or comment me out) -->
 
 **Today's Progress**: Applied to the , included some Ruby and Rails exposure. Interview prep for TW. 
 
@@ -345,7 +317,6 @@ Saw an interesting statement: "First, solve the problem. Then, write the code," 
 **Link to work:** [Snake demo](https://ncbui.github.io/JS-OO-Snake/) [github](https://github.com/ncbui/JS-OO-Snake) 
 
 ### Day 27: 12 January 2021
-<!-- ##### (delete me or comment me out) -->
 
 **Today's Progress**: Working through behavioral and presentational bits of interview prep. Doing on array problems from Cracking the Coding Interview.
 
@@ -353,3 +324,30 @@ Saw an interesting statement: "First, solve the problem. Then, write the code," 
 
 
 **Link to work:** [Arrays](arrays/)
+
+### Day 28: 13 January 2021
+
+**Today's Progress**: More progress with cracking the coding interview
+
+**Thoughts:** 
+
+
+**Link to work:** [Arrays](arrays/)
+
+### Day 29: 16 January 2021
+
+**Today's Progress**: Working on a new portfolio with React. Laid out the App structure with router and switch.
+
+**Thoughts:** My current portfolio is built as a SPA for github pages, mostly because ghp required more workarounds to mesh with React switches. I intend for this latest portfolio to be hosted on heroku and accessed through a custom domain.
+
+
+**Link to work:** [Latest branch in Portfolio](/tree/heroku-review)
+
+### Day 30: 17 January 2021
+
+**Today's Progress**: More progress with portfolio. Spent a bit of time on Dribbble to find a theme to recreate
+
+**Thoughts:** I spent a few hours on dribbble.com and awwwards.com browsing delightful and creative designs. 
+
+
+**Link to work:** [Latest branch in Portfolio](/tree/heroku-review)
