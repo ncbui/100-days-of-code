@@ -329,7 +329,7 @@ Saw an interesting statement: "First, solve the problem. Then, write the code," 
 
 **Today's Progress**: More progress with cracking the coding interview
 
-**Thoughts:** 
+**Thoughts:** I showed up. 
 
 
 **Link to work:** [Arrays](arrays/)
@@ -351,3 +351,21 @@ Saw an interesting statement: "First, solve the problem. Then, write the code," 
 
 
 **Link to work:** [Latest branch in Portfolio](/tree/heroku-review)
+
+### Day 31: 18 January 2021
+
+**Today's Progress**: Working on a cracking the coding interview problem and then did a flash review of a handful of DSAs and algos.
+
+**Thoughts:** I really enjoyed the flash review process. Taking time with implementations has helped with understanding nuances for each concept. But the flash review really helped crystallize connections between concepts and sparked questions that led to further study. It also felt good to remember how much I've covered already and gives me a chance to integrate the new with the crystallized. I'm going to incorporate more flash review days. 
+
+
+**Link to work:** [cracking-the-coding-interview repo](https://github.com/ncbui/cracking-the-coding-interview-6th)
+
+### Day 32: 19 January 2021
+
+**Today's Progress**: Working on a cracking the coding interview problems and did a bit of pair coding during a tech screen.
+
+**Thoughts:** Not sure I did well during the tech screen, I spent less time implementing code and more time exploring requirements to the problem to eliminate certain algos until we got to a reasonable approach. Got to see more examples of how to make assumptions and reasonable shortcuts to take while virtually whiteboarding. 
+
+
+**Link to work:** [cracking-the-coding-interview repo](https://github.com/ncbui/cracking-the-coding-interview-6th)
