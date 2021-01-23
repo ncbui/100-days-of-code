@@ -369,3 +369,30 @@ Saw an interesting statement: "First, solve the problem. Then, write the code," 
 
 
 **Link to work:** [cracking-the-coding-interview repo](https://github.com/ncbui/cracking-the-coding-interview-6th)
+
+### Day 33: 20 January 2021
+
+**Today's Progress**: Research to implement A* search algorithm and path recalculation.
+**Thoughts:** 
+Recalculation 
+Use a stack to track path, stack runs from furthest to closest 
+After every move, remove the node from the stack, if a direction change was required
+
+
+If snake's future direction is not equal to its current direction,
+
+"Implementation Note:
+Store the path in reverse order: it is easy to remove the beginning of the path and splice in a new path with a different length; because both operations occur at the end of the array. Essentially you treat the array as a stack where the top element is the next move to make"
+
+http://theory.stanford.edu/~amitp/GameProgramming/MovingObstacles.html
+
+**Link to work:** [cracking-the-coding-interview repo](https://github.com/ncbui/cracking-the-coding-interview-6th)
+
+### Day 34: 22 January 2021
+
+**Today's Progress**: Working on linked list problems from cracking the coding interview
+
+**Thoughts:** Linked lists can be used with arrays to implement hash tables. I'm especially mindful of designing optimal runtimes here. 
+I currently have the removeDup method as a standalone function but I could just add it as a static class to the linked list class. 
+
+**Link to work:** [cracking-the-coding-interview repo](https://github.com/ncbui/cracking-the-coding-interview-6th)
