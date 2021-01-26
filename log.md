@@ -396,3 +396,37 @@ http://theory.stanford.edu/~amitp/GameProgramming/MovingObstacles.html
 I currently have the removeDup method as a standalone function but I could just add it as a static class to the linked list class. 
 
 **Link to work:** [cracking-the-coding-interview repo](https://github.com/ncbui/cracking-the-coding-interview-6th)
+
+### Day 35: 23 January 2021
+
+**Today's Progress**: Working on iterative and recursive solutions to a linked list problem. Updated project section to new portfolio. 
+
+**Thoughts:** Two common strategies to recursion are (1) do while digging and (2) dig then do. With the Problem 2.2, the do while digging approach came pretty easily, but I'm having trouble with dig, then do on the way back up. 
+
+**Link to work:** [cracking-the-coding-interview repo](https://github.com/ncbui/cracking-the-coding-interview-6th)
+
+### Day 36: 24 January 2021
+
+**Today's Progress**: More reading about the [implementation of A*](http://theory.stanford.edu/~amitp/GameProgramming/ImplementationNotes.html)
+
+**Thoughts:**  This page describes what an implementation would involve, then compares and contrasts the performance of data structures that could be used. 
+ 
+A* tracks two sets of data, a queue containing nodes to explore and a set containing explored nodes that point to its parent. The queue initializes with the current position. For each call, the first node is removed from queue and compared to explored set. If that item is not found, it is added to this explored set. This loop ends when the node removed from the frontier is the goal node.
+
+I want to track each potential move by its location, its distance to  
+
+**Link to work:** [cracking-the-coding-interview repo](https://github.com/ncbui/cracking-the-coding-interview-6th)
+
+### Day 37: 25 January 2021
+
+**Today's Progress**: Looked into priority queue implementations. Considered using an array and linked list and an n-ary tree. But found a neat way to use indexed arrays to implement binary heaps
+
+ 
+**Thoughts:** 
+ From [Ankita Masand's guide to Implementing Heaps](https://blog.bitsrc.io/implementing-heaps-in-javascript-c3fbf1cb2e65):
+ 
+ Given the index of a parent node, pIdx, its children can be found at index (2*pIdx + 1) and (2*pIdx + 2).
+
+Given a child node, its parent can be found at i / 2.
+
+**Link to work:** [cracking-the-coding-interview repo](https://github.com/ncbui/cracking-the-coding-interview-6th)
