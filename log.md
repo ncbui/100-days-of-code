@@ -430,3 +430,12 @@ I want to track each potential move by its location, its distance to
 Given a child node, its parent can be found at i / 2.
 
 **Link to work:** [cracking-the-coding-interview repo](https://github.com/ncbui/cracking-the-coding-interview-6th)
+
+### Day 38: 27 January 2021
+
+**Today's Progress**: Worked on a tech screen today involving calculating a monthly invoice based on a subscription model, making API calls and filtering data, and a written portion about debugging systems.
+
+ 
+**Thoughts:** I felt pretty confident with the calculations and API call but blanked when I ran into debugging systems. 
+
+**Link to work:** 
