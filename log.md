@@ -439,3 +439,37 @@ Given a child node, its parent can be found at i / 2.
 **Thoughts:** I felt pretty confident with the calculations and API call but blanked when I ran into debugging systems. 
 
 **Link to work:** 
+
+### Day 39: 29 January 2021
+
+**Today's Progress**: Worked on a tech screen today involving calculating a monthly invoice based on a subscription model, making API calls and filtering data, and a written portion about debugging systems.
+
+ 
+**Thoughts:** 
+
+**Link to work:** 
+
+
+### Day 40: 2 February 2021
+
+**Today's Progress**: Worked on a tech screen involving checking whether a cell is still lit after a section is turned off. 
+
+**Thoughts:** 
+
+**Link to work:** 
+
+### Day 41: 3 February 2021
+
+**Today's Progress**: Continued to work on the problem from Day 40
+
+**Thoughts:** Most frequently used language lately is profanity
+
+**Link to work:** 
+
+### Day 42: 4 February 2021
+
+**Today's Progress**: More attempts at the problem from Day 40. Worked pathfinding with my snake game. 
+
+**Thoughts:** Went searching for insights to this problem. Found variants of it that has helped with progress. Took a break to jump into snake game. Coming back to this project after a long break helped with cleaning up some of the code. 
+
+**Link to work:** 
