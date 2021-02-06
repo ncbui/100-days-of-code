@@ -473,3 +473,13 @@ Given a child node, its parent can be found at i / 2.
 **Thoughts:** Went searching for insights to this problem. Found variants of it that has helped with progress. Took a break to jump into snake game. Coming back to this project after a long break helped with cleaning up some of the code. 
 
 **Link to work:** 
+
+### Day 42: 5 February 2021
+
+**Today's Progress**: Worked on a nested weighted sum problem as an interviewee during a interviewing.io session and a problem for the dropbox tech screen. 
+
+**Thoughts:** I enjoyed my first peer session interviewing.io session. I got to try out my whiteboarding and coding skills in a mid-pressure environment with a problem picked by a peer (No set questions list). 
+
+Found a solution but had trouble optimizing for run time. Need to review that
+
+**Link to work:** 
