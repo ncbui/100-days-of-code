@@ -483,3 +483,19 @@ Given a child node, its parent can be found at i / 2.
 Found a solution but had trouble optimizing for run time. Need to review that
 
 **Link to work:** 
+
+### Day 43: 8 February 2021
+
+**Today's Progress**: DRYd up methods on my snake game. And made more progress with the pathfinder  
+
+**Thoughts:** I wrote a post for linkedin for the first time in a while. In the process, I also got a bit of insight into how to DRY up my code. While writing about the heuristic I'm looking to build I realized the the heuristic I was already using to guide the NPC towards food was approximately a greedy BFS. That's halfway towards being heuristic I need. The DRYing allows me to retool that method to be called in the heuristic I need. The post searves as a sounding board or rubber ducky. 
+
+**Link to work:**  [Anaconda demo](https://ncbui.github.io/anaconda-game) [github](https://github.com/ncbui/anaconda-game) 
+
+### Day 44: 9 February 2021
+
+**Today's Progress**: Troubleshooting the bit of pathfinder that is supposed to identify neighbors and add them to queue.   
+
+**Thoughts:** I'm reaching the point where I want to import lodash to perform a deep comparison instead of coding it myself. Comparing objects in JS just checks if the objects point to the same reference. I'm create each point as a class instance as we check, so of course the points will never refer to the same object in memory. Lodash gets around that with it's .isEqual deep comparison function. I wonder if there's another way I can store point data that'll allow for simple comparison. 
+
+**Link to work:**  [Anaconda demo](https://ncbui.github.io/anaconda-game) [github](https://github.com/ncbui/anaconda-game) 
